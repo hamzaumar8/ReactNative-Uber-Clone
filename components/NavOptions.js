@@ -27,6 +27,7 @@ const data = [
     screen: "Eat",
   },
 ];
+
 const NavOptions = () => {
   const navigation = useNavigation();
   const origin = useSelector(selectOrigin);
