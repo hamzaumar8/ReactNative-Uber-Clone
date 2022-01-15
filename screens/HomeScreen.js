@@ -7,6 +7,7 @@ import { GOOGLE_MAPS_APIKEY } from "@env";
 import { useDispatch } from "react-redux";
 import { setDestination, setOrigin } from "../slices/navSlice";
 import NavFavourites from "../components/NavFavourites";
+// navigator.geolocation = require("react-native-geolocation-service");
 
 const HomeScreen = () => {
   const dispatch = useDispatch();
